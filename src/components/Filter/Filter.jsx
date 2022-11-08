@@ -1,5 +1,5 @@
 import propTypes from 'prop-types';
-import css from './Filter.module.css'
+import css from './Filter.module.css';
 
 export const Filter = ({ filter, handleChange }) => (
   <div>
@@ -16,6 +16,6 @@ export const Filter = ({ filter, handleChange }) => (
 );
 
 Filter.propTypes = {
-  filter: propTypes.string.isRequired,
+  filter: propTypes.string,
   handleChange: propTypes.func.isRequired,
 };
